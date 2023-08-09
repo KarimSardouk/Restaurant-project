@@ -1,0 +1,123 @@
+
+
+
+  
+ 
+ h1 {
+  white-space: nowrap;
+ text-align: center;
+ margin-left: 660%;
+ margin-top: 30%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;}
+
+
+ 
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 90px;
+
+
+}
+
+.horizontal-images {
+  display: flex; /* عرض الصور بشكل أفقي */
+  background-color: rgba(255, 255, 255, 0.5)
+  
+}
+
+.image-card {
+  margin: 10px; /* لإضافة بعض التباعد بين الصور */
+ position: relative;
+ 
+
+ 
+  
+
+}
+
+img {
+  max-width: 100%;
+   /
+      height: auto;
+      width:auto ;
+     
+}
+
+.overlay {
+  display: flex;
+  position: absolute; 
+  bottom: 10px;
+  left: 0; 
+  top: 0;
+  width: 100%; 
+  text-align: center; 
+  display: inline-block;
+  
+
+}
+  
+ 
+
+.price-circle {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; 
+  background-color: #FFA500;
+  padding: 10px 20px; 
+  color: #ffffff; 
+  font-size: 16px; 
+  font-weight: bold; 
+  width: 30px;
+
+
+}
+
+
+.food-name{
+
+color: rgb(255, 255, 255);
+font-family:'Open Sans', sans-serif; 
+font-size: 21px;
+
+}
+.food-name{
+
+  position: center;
+  margin-left: auto;
+  margin-top: 225%;
+  margin-left: 100%;
+  white-space: nowrap;
+}
+.price-circle{
+ top:0;
+ left: 0%;
+ right: auto;
+ position:absolute;
+ align-items: center;
+margin-top: 27% ;
+margin-left:7% ;
+ 
+}
+.food{
+  white-space: nowrap;
+  margin-left: 100%;
+  top: 0;
+  font-family:'Open Sans', sans-serif; 
+  font-size: 18px;
+
+}
+
+  
