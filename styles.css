@@ -188,13 +188,13 @@ body {
 }
 
 .horizontal-images {
-  display: flex; /* عرض الصور بشكل أفقي */
+  display: flex; 
   background-color: rgba(255, 255, 255, 0.5)
   
 }
 
 .image-card {
-  margin: 10px; /* لإضافة بعض التباعد بين الصور */
+  margin: 10px; 
  position: relative;
  
 
